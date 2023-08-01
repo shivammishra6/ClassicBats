@@ -104,6 +104,11 @@ footer{
    text-align:center;
 }
 
+input{
+   font-size: 30px;
+}
+
+/* media queries */
 @media (min-width:388px) and (max-width:677px)
 {
    h1{
@@ -120,7 +125,7 @@ footer{
       justify-content: space-evenly;
    }
 
-   #sec1, #sec2,footer,#sec3{
+   #sec1, #sec2,footer,#sec3 h3{
       font-size:25px;
    }
    .first{
